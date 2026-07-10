@@ -34,3 +34,8 @@ __pycache__/
 .venv/
 venv/
 .env
+.python-version
+ 
+# --- Dependencies------------
+pyproject.toml
+uv.lock
