@@ -1,1 +1,1 @@
-PASTE-YOUR-DEPLOYED-PAPER-URL-HERE
+https://neuralalchemist-ai.github.io/FlyRank/
