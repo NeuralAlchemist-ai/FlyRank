@@ -1,0 +1,12 @@
+{
+  "base_rate": 0.5438736813073157,
+  "figure_output": "/home/tsimur/Documents/FlyRank/work/outputs/fig_precision_at_k.png",
+  "queue_output": "/home/tsimur/Documents/FlyRank/work/outputs/content_action_queue.csv",
+  "queue_reach_min": 100,
+  "queue_rows": 85410,
+  "queue_top50_decline_rate": 0.66,
+  "validation": {
+    "grouped_split_auc": 0.5568158309423983,
+    "random_split_auc": 0.6534166834623558
+  }
+}

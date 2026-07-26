@@ -1,0 +1,27 @@
+{
+  "clients": 28,
+  "deployed_model": "logistic",
+  "metrics": {
+    "base_rate": 0.5438736813073157,
+    "baseline": {
+      "auc": null,
+      "precision_at_100": 0.62,
+      "precision_at_20": 0.6,
+      "precision_at_50": 0.56
+    },
+    "hgb": {
+      "auc": 0.5484124778478372,
+      "precision_at_100": 0.5,
+      "precision_at_20": 0.45,
+      "precision_at_50": 0.48
+    },
+    "logistic": {
+      "auc": 0.507525838002302,
+      "precision_at_100": 0.56,
+      "precision_at_20": 0.4,
+      "precision_at_50": 0.5
+    }
+  },
+  "rows": 145030,
+  "split": "GroupKFold(5) out-of-fold by client"
+}

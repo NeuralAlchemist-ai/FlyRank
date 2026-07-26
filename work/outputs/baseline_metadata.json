@@ -1,0 +1,7 @@
+{
+  "base_rate": 0.5438736813073157,
+  "precision_at_100": 0.62,
+  "precision_at_20": 0.6,
+  "precision_at_50": 0.56,
+  "rows": 145030
+}

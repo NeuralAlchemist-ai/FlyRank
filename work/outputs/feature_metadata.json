@@ -1,0 +1,34 @@
+{
+  "anchor": "2026-03-31",
+  "categorical_features": [
+    "content_type",
+    "main_intent",
+    "competition_level"
+  ],
+  "clients": 28,
+  "decline_base_rate": 0.5438736813073157,
+  "feature_window": "trailing 90 days (Jan-Mar 2026)",
+  "label_definition": "April 2026 impressions < 0.8 * March 2026 impressions",
+  "label_window": "April 2026 (forward 30 days)",
+  "modeled_rows": 145030,
+  "numeric_features": [
+    "log_impressions_prev_30d",
+    "log_clicks_prev_30d",
+    "log_sessions_prev_30d",
+    "log_impr_older_30d",
+    "ctr_prev_30d",
+    "hist_impr_momentum",
+    "log_search_volume",
+    "competition",
+    "cpc",
+    "word_count",
+    "char_count",
+    "content_age_days",
+    "days_since_last_update",
+    "age_tier_order",
+    "has_keyword_data",
+    "has_word_count"
+  ],
+  "output": "work/outputs/feature_vector.csv",
+  "source": "warehouse fact_content_daily_performance months 2026-01..2026-04"
+}
